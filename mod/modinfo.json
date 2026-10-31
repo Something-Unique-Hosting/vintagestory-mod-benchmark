@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "suhbench",
+  "name": "SUH Server Bench",
+  "description": "Headless server benchmark for comparing mod sets: worldgen throughput, idle and creature tick cost, memory, GC, startup phases, per-mod tick attribution. Writes one JSON file and shuts the server down.",
+  "authors": [ "Something Unique Hosting" ],
+  "version": "1.1.0",
+  "side": "server",
+  "requiredonclient": false,
+  "dependencies": { "game": "" }
+}

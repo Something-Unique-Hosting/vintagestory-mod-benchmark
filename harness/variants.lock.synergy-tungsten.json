@@ -1,0 +1,139 @@
+{
+  "game": "1.22.7",
+  "mods": {
+    "synergy": {
+      "slug": "synergy",
+      "label": "Synergy",
+      "name": "Synergy",
+      "author": "Zaldaryon",
+      "version": "1.1.25",
+      "modidstr": "synergy",
+      "file": "Synergy-1.1.25.zip",
+      "release_date": "2026-07-31 17:59:54",
+      "game_tags": [
+        "1.22.5",
+        "1.22.6"
+      ],
+      "download_url": "https://moddbcdn.vintagestory.at/Synergy-1.1.25_71faf77ed1f890a19d10c766c50318a7.zip?dl=Synergy-1.1.25.zip",
+      "url": "https://mods.vintagestory.at/synergy",
+      "downloads_total": 14104,
+      "deps": [],
+      "library": false,
+      "source": "moddb"
+    },
+    "tungsten": {
+      "slug": "tungsten",
+      "label": "Tungsten",
+      "name": "Tungsten",
+      "author": "Zaldaryon",
+      "version": "1.3.7",
+      "modidstr": "tungsten",
+      "file": "Tungsten-1.3.7.zip",
+      "release_date": "2026-07-31 15:57:18",
+      "game_tags": [
+        "1.22.5",
+        "1.22.6"
+      ],
+      "download_url": "https://moddbcdn.vintagestory.at/Tungsten-1.3.7_63d727ab81d9a10ffcbd8edbda9d7a6d.zip?dl=Tungsten-1.3.7.zip",
+      "url": "https://mods.vintagestory.at/tungsten",
+      "downloads_total": 19444,
+      "deps": [],
+      "library": false,
+      "source": "moddb"
+    }
+  },
+  "variants": [
+    {
+      "id": "baseline",
+      "label": "Vanilla 1.22.7, no mods",
+      "mods": [],
+      "files": [],
+      "collection": false,
+      "mods_resolved": []
+    },
+    {
+      "id": "synergy",
+      "label": "Synergy",
+      "mods": [
+        "synergy"
+      ],
+      "files": [
+        "Synergy-1.1.25.zip"
+      ],
+      "collection": false,
+      "mods_resolved": [
+        {
+          "slug": "synergy",
+          "version": "1.1.25",
+          "label": "Synergy"
+        }
+      ]
+    },
+    {
+      "id": "synergy_noar",
+      "label": "Synergy, activation range off",
+      "mods": [
+        "synergy"
+      ],
+      "config": {
+        "Synergy.json": {
+          "EntityActivationRangeEnabled": false
+        }
+      },
+      "files": [
+        "Synergy-1.1.25.zip"
+      ],
+      "collection": false,
+      "mods_resolved": [
+        {
+          "slug": "synergy",
+          "version": "1.1.25",
+          "label": "Synergy"
+        }
+      ]
+    },
+    {
+      "id": "tungsten",
+      "label": "Tungsten",
+      "mods": [
+        "tungsten"
+      ],
+      "files": [
+        "Tungsten-1.3.7.zip"
+      ],
+      "collection": false,
+      "mods_resolved": [
+        {
+          "slug": "tungsten",
+          "version": "1.3.7",
+          "label": "Tungsten"
+        }
+      ]
+    },
+    {
+      "id": "all",
+      "label": "Synergy + Tungsten together",
+      "mods": [
+        "synergy",
+        "tungsten"
+      ],
+      "collection": true,
+      "files": [
+        "Synergy-1.1.25.zip",
+        "Tungsten-1.3.7.zip"
+      ],
+      "mods_resolved": [
+        {
+          "slug": "synergy",
+          "version": "1.1.25",
+          "label": "Synergy"
+        },
+        {
+          "slug": "tungsten",
+          "version": "1.3.7",
+          "label": "Tungsten"
+        }
+      ]
+    }
+  ]
+}

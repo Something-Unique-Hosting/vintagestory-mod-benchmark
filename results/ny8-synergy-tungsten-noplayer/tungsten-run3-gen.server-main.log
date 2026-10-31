@@ -1,0 +1,356 @@
+31.10.2026 13:22:55 [Notification] Server logger started.
+31.10.2026 13:22:55 [Notification] Game Version: v1.22.7 (Stable)
+31.10.2026 13:22:55 [Notification] C# Framework: .net 10.0.12
+31.10.2026 13:22:55 [Notification] Zstd Version: 1.5.7
+31.10.2026 13:22:55 [Notification] Operating System: Linux (Debian GNU/Linux 13 (trixie)) [Kernel 6.8.0.147]
+31.10.2026 13:22:55 [Notification] CPU Cores: 4
+31.10.2026 13:22:55 [Notification] CPU: AMD Ryzen 9 9950X 16-Core Processor
+31.10.2026 13:22:55 [Notification] Available RAM: 255325 MB
+31.10.2026 13:22:55 [Event] It begins...
+31.10.2026 13:22:55 [Event] Launching server...
+31.10.2026 13:22:55 [Event] It senses...
+31.10.2026 13:22:55 [Event] Server v1.22.7, network v1.22.6, api v1.22.0
+31.10.2026 13:22:55 [Notification] Entering runphase Initialization
+31.10.2026 13:22:55 [Event] Loading configuration...
+31.10.2026 13:22:55 [Notification] Entering runphase Configuration
+31.10.2026 13:22:55 [Notification] Using world seed: 20261030
+31.10.2026 13:22:55 [Notification] Loading savegame
+31.10.2026 13:22:55 [Notification] Create new save game data. Playstyle: surviveandbuild
+31.10.2026 13:22:55 [Notification] Savegame ~/benchdata-mods/tungsten-3/Saves/bench.vcdbs loaded
+31.10.2026 13:22:55 [Notification] World size = 1024000 256 1024000
+31.10.2026 13:22:55 [Notification] Start discovering assets
+31.10.2026 13:22:55 [Notification] Found 2 base assets in category blocktypes
+31.10.2026 13:22:55 [Notification] Found 0 base assets in category itemtypes
+31.10.2026 13:22:55 [Notification] Found 35 base assets in category lang
+31.10.2026 13:22:55 [Notification] Found 0 base assets in category patches
+31.10.2026 13:22:55 [Notification] Found 24 base assets in category config
+31.10.2026 13:22:55 [Notification] Found 0 base assets in category worldproperties
+31.10.2026 13:22:55 [Notification] Found 1 base assets in category sounds
+31.10.2026 13:22:55 [Notification] Found 230 base assets in category shapes
+31.10.2026 13:22:55 [Notification] Found 21 base assets in category textures
+31.10.2026 13:22:55 [Notification] Found 0 base assets in category recipes
+31.10.2026 13:22:55 [Notification] Found 0 base assets in category worldgen
+31.10.2026 13:22:55 [Notification] Found 3 base assets in category entities
+31.10.2026 13:22:55 [Notification] Found 316 base assets in total
+31.10.2026 13:22:55 [Event] Building assets...
+31.10.2026 13:22:55 [Notification] Entering runphase LoadAssets
+31.10.2026 13:22:55 [Notification] Will search the following paths for mods:
+31.10.2026 13:22:55 [Notification]     ~/servers/vanilla/Mods
+31.10.2026 13:22:55 [Notification]     ~/modbench/mod
+31.10.2026 13:22:55 [Notification]     ~/mods/sets/tungsten
+31.10.2026 13:22:55 [Notification] Found 5 mods (0 disabled)
+31.10.2026 13:22:55 [Notification] Mods, sorted by dependency: game, suhbench, tungsten, creative, survival
+31.10.2026 13:22:55 [Notification] Instantiated 150 mod systems from 5 enabled mods
+31.10.2026 13:22:55 [Notification] External Origins in load order: modorigin@~/servers/vanilla/assets/creative/, modorigin@~/servers/vanilla/assets/survival/
+31.10.2026 13:22:55 [Notification] Found 541 external assets in category blocktypes
+31.10.2026 13:22:55 [Notification] Found 315 external assets in category itemtypes
+31.10.2026 13:22:55 [Notification] Found 0 external assets in category lang
+31.10.2026 13:22:55 [Notification] Found 10 external assets in category patches
+31.10.2026 13:22:55 [Notification] Found 128 external assets in category config
+31.10.2026 13:22:55 [Notification] Found 25 external assets in category worldproperties
+31.10.2026 13:22:55 [Notification] Found 1 external assets in category sounds
+31.10.2026 13:22:55 [Notification] Found 6123 external assets in category shapes
+31.10.2026 13:22:55 [Notification] Found 25 external assets in category textures
+31.10.2026 13:22:55 [Notification] Found 419 external assets in category recipes
+31.10.2026 13:22:55 [Notification] Found 1455 external assets in category worldgen
+31.10.2026 13:22:55 [Notification] Found 74 external assets in category entities
+31.10.2026 13:22:55 [Notification] Found 0 external assets in category compatibility
+31.10.2026 13:22:55 [Notification] Reloaded lang file with mod assets
+31.10.2026 13:22:55 [Notification] Compatibility lib: 0 assets added, 0 assets replaced.
+31.10.2026 13:22:55 [Notification] JsonPatch Loader: 14 patches total, successfully applied 14 patches, unmet conditions on 23 patches, no errors
+31.10.2026 13:22:56 [Event] It remembers...
+31.10.2026 13:22:56 [Notification] Loaded 4468 unique items
+31.10.2026 13:22:56 [Event] All that came before...
+31.10.2026 13:22:58 [Notification] Loaded 14089 unique blocks
+31.10.2026 13:22:59 [Notification] Loaded 820 unique entitiess
+31.10.2026 13:22:59 [Notification] BlockLoader: Entities, Blocks and Items loaded
+31.10.2026 13:22:59 [Event] Remapping blocks and items...
+31.10.2026 13:22:59 [Event] 15 cooking recipes loaded
+31.10.2026 13:22:59 [Event] Taste and smell...
+31.10.2026 13:22:59 [Event] 9 metal alloys loaded
+31.10.2026 13:22:59 [Event] Glimmers in the soil...
+31.10.2026 13:23:00 [Event] 1152 grid recipes loaded from 268 files
+31.10.2026 13:23:00 [Event] Grand inventions...
+31.10.2026 13:23:00 [Event] 44 smithing recipes loaded from 43 files
+31.10.2026 13:23:00 [Event] Burning sparks...
+31.10.2026 13:23:00 [Event] 31 clay forming recipes loaded from 31 files
+31.10.2026 13:23:00 [Event] Molded forms...
+31.10.2026 13:23:00 [Event] 12 knapping recipes loaded from 12 files
+31.10.2026 13:23:00 [Event] Simple tools...
+31.10.2026 13:23:00 [Event] 90 barrel recipe recipes loaded from 41 files
+31.10.2026 13:23:00 [Notification] Tags registry was locked.
+31.10.2026 13:23:00 [Notification] Entering runphase AssetsFinalize
+31.10.2026 13:23:00 [Event] Server assets loaded, parsed, registered and finalized
+31.10.2026 13:23:00 [Event] Initialising systems...
+31.10.2026 13:23:00 [Notification] Entering runphase LoadGamePre
+31.10.2026 13:23:00 [Notification] [SuhBench] system timing enabled on 15 methods
+31.10.2026 13:23:00 [Notification] [SuhBench] mod timing: 2 listener classes patched
+31.10.2026 13:23:00 [Notification] [SuhBench] armed: label=tungsten mode=gen radius=20 entities=500 ladder=
+31.10.2026 13:23:00 [Notification] Reloaded 19 weather patterns, 5 wind patterns and 5 weather events
+31.10.2026 13:23:00 [Warning] [Tungsten] [ILSignatureManifest] No built-in manifest for game version 1.22.5. Validation will be disabled and vanilla-safe patching behavior will remain.
+31.10.2026 13:23:00 [Warning] [Tungsten] [ILSignatureManifest] Disabled automatically: no built-in manifest for current game version
+31.10.2026 13:23:00 [Notification] [Tungsten] [EntitySimulationOptimization] Skipped - TickEntities already patched by EntityListReuseOptimizer
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraZeroAlloc] Types resolved: OE=Vintagestory.API.MathTools.NewNormalizedSimplexFractalNoise+ColumnNoise+OctaveEntry, PE=Vintagestory.API.MathTools.NewNormalizedSimplexFractalNoise+ColumnNoise+PastEvaluation
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraZeroAlloc] ColumnNoise .ctor newarr[7]: System.Double (match OE=False, PE=False)
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraZeroAlloc] ColumnNoise .ctor newarr[10]: System.Int32 (match OE=False, PE=False)
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraZeroAlloc] ColumnNoise .ctor newarr[116]: Vintagestory.API.MathTools.NewNormalizedSimplexFractalNoise+ColumnNoise+OctaveEntry (match OE=True, PE=False)
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraZeroAlloc] ColumnNoise .ctor newarr[120]: Vintagestory.API.MathTools.NewNormalizedSimplexFractalNoise+ColumnNoise+PastEvaluation (match OE=False, PE=True)
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraZeroAlloc] ColumnNoise transpiler: 2 newarr replaced successfully.
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraZeroAlloc] Patches applied: ForColumn + GetInterpolatedOctaves
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraBitArray] Self-test passed (16 sizes, all bit-identical)
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraBitArray] Transpiled: SetAll=0, set_Item=0, get_Item=2
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraBitArray] Transpiled: SetAll=1, set_Item=2, get_Item=0
+31.10.2026 13:23:01 [Notification] [Tungsten] [GenTerraBitArray] Patched generate() + 1 lambda(s)
+31.10.2026 13:23:01 [Notification] [Tungsten] [NativeNoise] Validation passed: 1024/1024 bit-exact matches.
+31.10.2026 13:23:01 [Notification] [Tungsten] Pre-warmed 30 ThreadLocal instances on main thread
+31.10.2026 13:23:01 [Notification] [Tungsten] Diagnostic modules registered: 25
+31.10.2026 13:23:01 [Notification] [Tungsten] Initialized (26/26 optimizations enabled)
+31.10.2026 13:23:01 [Notification] Started 127 systems on Server:
+31.10.2026 13:23:01 [Notification]     Mod 'VSEssentials.dll' (game):
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.Core
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenTerra
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenSnowLayer
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.EntityPartitioning
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ErrorReporter
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenTerraPostProcess
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.ModCompatiblityUtil
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.NoObf.ModJsonPatchLoader
+31.10.2026 13:23:01 [Notification]         FluffyClouds.FluffyCloudsModSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.Systems.ModSystemTfEditFromAttributes
+31.10.2026 13:23:01 [Notification]         Vintagestory.Essentials.PathfindSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.Essentials.PathFindDebug
+31.10.2026 13:23:01 [Notification]         Vintagestory.Essentials.PathfindingAsync
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.JsonExport
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.ModBasicBlocksLoader
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenMaps
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenRockStrataNew
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenHotSprings
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenCreatures
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.ModSystemWorldGenStructures
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemItemRendererOptimizer
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.AiRuntimeConfig
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemSyncHarvestableDropsToClient
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemEmotes
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.LeafBlockDecay
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.POIRegistry
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.RoomRegistry
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.WeatherSystemCommands
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.WeatherSystemServer
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.SystemRemotePlayerTracking
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.WorldMapManager
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenDeposits
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.NoObf.ModRegistryObjectTypeLoader
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.LoadColorMaps
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenCaves
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenStructures
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.WgenCommands
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenBlockLayers
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenPonds
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ClothManager
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenStructuresPosPass
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenVegetationAndPatches
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenRivulets
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenLightSurvival
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.CollectibleBuffDebug
+31.10.2026 13:23:01 [Notification]     Mod 'VSSurvivalMod.dll' (survival):
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemControlPoints
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.SurvivalCoreSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.Systems.StoryLockableDoor
+31.10.2026 13:23:01 [Notification]         Vintagestory.Client.NoObf.StoryGenFailedSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.UpgradeTasks
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.ChiselBlockBulkSetMaterial
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.ModSystemDetailModeSync
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.NpcControl
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.ModSystemTiledDungeons
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemExplosionAffectedStability
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.MyceliumSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModsystemButterflySpawnCondsExtra
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemFishInstaFlee
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemCatchCreature
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.FishingSupportModSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemGliding
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemSnowShoveling
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemSubTongsDurability
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemSwoopDev
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.Timeswitch
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ClutterBookshelfUtil
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ScreenshakeToClientModSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemResoArchiveCommands
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.StoryStructuresSpawnConditions
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemNPCHairStyling
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemSkinnableAdditions
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemVillagerDebug
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemAuction
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemBlockReinforcement
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.Core
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemBoatingSoundAndRatlineStamina
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.CharacterSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.CustomSpawnConditions
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.VariablesModSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModsystemElevator
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ActivityModSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ActivityEditorSystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemFarming
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemCommandHandbook
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemTutorial
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.HeldItemMouseInputHandler
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemCorpseReturnTeleporter
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemNightVision
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.TobiasTeleporter
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModJournal
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.LiquidItemStackRenderer
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemStructureLocator
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModLootRandomizer
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemEntityOwnership
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemRifts
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemRiftWeather
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSleeping
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemSupportBeamPlacer
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.TeleporterManager
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModTemperature
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.SystemTemporalStability
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.TemporalStabilityEffects
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemClimateSpecificTraderTypes
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemWearableStats
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemEditableBook
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.Mechanics.ModSystemWindTurbulence
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.Mechanics.MechanicalPowerMod
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenDungeons
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.GenStoryStructures
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.WgenCommandsExt
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenDevastationLayer
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.RecipeRegistrySystem
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.RecipeLoader
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemFishDepletion
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemWormGrunting
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemFireFromLightning
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemOreMap
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemSnowballs
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.HumanoidOutfits
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.ModSystemDevastationEffects
+31.10.2026 13:23:01 [Notification]         Vintagestory.GameContent.DisableRecipeRegisteringSystem
+31.10.2026 13:23:01 [Notification]     Mod 'VSCreativeMod.dll' (creative):
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.Core
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.WorldEdit.WorldEdit
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenBlockLayersFlat
+31.10.2026 13:23:01 [Notification]         Vintagestory.ServerMods.GenLightCreative
+31.10.2026 13:23:01 [Notification]     Mod 'suhbench' (suhbench):
+31.10.2026 13:23:01 [Notification]         SuhBench.BenchModSystem
+31.10.2026 13:23:01 [Notification]     Mod 'Tungsten-1.3.7.zip' (tungsten):
+31.10.2026 13:23:01 [Notification]         Tungsten.TungstenMod
+31.10.2026 13:23:01 [Notification] [Tungsten] [ClassRegistryFrozenOptimization] Compacted 21 dictionaries (889 total entries)
+31.10.2026 13:23:01 [Event] 26 traits loaded from 1 files
+31.10.2026 13:23:01 [Event] 6 classes loaded from 1 files
+31.10.2026 13:23:02 [Notification] Server map set
+31.10.2026 13:23:02 [Event] A world unbroken...
+31.10.2026 13:23:02 [Notification] Entering runphase GameReady
+31.10.2026 13:23:02 [Notification] Entering runphase WorldReady
+31.10.2026 13:23:02 [Event] The center unfolding...
+31.10.2026 13:23:02 [Event] Starting world generators...
+31.10.2026 13:23:05 [Notification] Reloaded 35 tree generators
+31.10.2026 13:23:05 [Event] Loading 7x7x8 spawn chunks...
+31.10.2026 13:23:05 [Event] 0% (49 in queue)
+31.10.2026 13:23:05 [Event] The carved mountains...
+31.10.2026 13:23:05 [Notification] Dungeon with 112 schematics generated
+31.10.2026 13:23:07 [Event] 0% (49 in queue)
+31.10.2026 13:23:07 [Event] The rolling hills...
+31.10.2026 13:23:08 [Event] 0% (113 in queue)
+31.10.2026 13:23:08 [Event] The sheer cliffs...
+31.10.2026 13:23:10 [Event] 0% (178 in queue)
+31.10.2026 13:23:10 [Event] The endless plains...
+31.10.2026 13:23:10 [Event] Begin game ticking...
+31.10.2026 13:23:10 [Event] ... it calls to you
+31.10.2026 13:23:10 [Notification] Entering runphase RunGame
+31.10.2026 13:23:10 [Notification] [SuhBench] mod timing: 0 mod entity behaviours patched (0 behaviour types seen in mod assemblies); assemblies mapped: SuhBench->suhbench, Tungsten->tungsten
+31.10.2026 13:23:10 [Notification] [SuhBench] RunGame reached after 15724 ms with 5 mods (1 under test), starting worldgen phase
+31.10.2026 13:23:10 [Notification] [SuhBench] requested 1681 chunk columns (radius 20) around chunk 16000,16000
+31.10.2026 13:23:10 [Notification] [Tungsten] [PatchConflict] No multi-mod patch conflicts detected.
+31.10.2026 13:23:10 [Notification] Starting server threads
+31.10.2026 13:23:10 [Event] Dedicated Server now running on Port 42777 and all ips!
+31.10.2026 13:23:10 [Event] Return again.
+31.10.2026 13:23:10 [Notification] Please be aware that as of 1.20, servers default configurations have changed - servers no longer register themselves to the public servers list and are invite-only (whitelisted) out of the box. If you desire so, you can enable server advertising with '/serverconfig advertise on' and disable the whitelist mode with '/serverconfig whitelistmode off'
+31.10.2026 13:23:39 [Notification] Dungeon with 123 schematics generated
+31.10.2026 13:23:49 [Notification] [SuhBench] phase worldgen done: wall 38719 ms, cpu 42976 ms, ticks 1151, mean 1.51 ms, p99 8.08 ms
+31.10.2026 13:24:09 [Notification] [SuhBench] phase settle done: wall 20125 ms, cpu 1517 ms, ticks 600, mean 1.38 ms, p99 4.74 ms
+31.10.2026 13:24:29 [Notification] [SuhBench] phase idle done: wall 20098 ms, cpu 954 ms, ticks 600, mean 1.23 ms, p99 2.21 ms
+31.10.2026 13:24:29 [Notification] [SuhBench] spawned 500 entities (0 failed), loaded entities now 1445
+31.10.2026 13:25:14 [Notification] [SuhBench] phase entities done: wall 44953 ms, cpu 7635 ms, ticks 1340, mean 4.35 ms, p99 11.65 ms
+31.10.2026 13:25:14 [Notification] [SuhBench] wrote /home/container/results-mods/tungsten-run3-gen.json
+31.10.2026 13:25:14 [Notification] [SuhBench] shutting down
+31.10.2026 13:25:22 [Notification] Server stop requested, begin shutdown sequence. Stop reason: Forced: Shutdown through Server API
+31.10.2026 13:25:22 [Notification] Server ticking has been suspended
+31.10.2026 13:25:22 [Notification] Entering runphase Shutdown
+31.10.2026 13:25:22 [Notification] [Tungsten] [GenTerraBitArray] Transpiled: SetAll=0, set_Item=0, get_Item=2
+31.10.2026 13:25:22 [Notification] [Tungsten] [GenTerraBitArray] Transpiled: SetAll=0, set_Item=0, get_Item=2
+31.10.2026 13:25:22 [Event] Mods and systems notified, now saving everything...
+31.10.2026 13:25:22 [Event] It pauses.
+31.10.2026 13:25:22 [Event] One last gaze...
+31.10.2026 13:25:22 [Event] Saved player world data...
+31.10.2026 13:25:22 [Event] Saved map regions...
+31.10.2026 13:25:22 [Event] Then all goes quiet...
+31.10.2026 13:25:22 [Event] Saved map chunks...
+31.10.2026 13:25:22 [Event] The waters recede...
+31.10.2026 13:25:22 [Event] Saved 300 chunks...
+31.10.2026 13:25:22 [Event] Saved 600 chunks...
+31.10.2026 13:25:22 [Event] Saved 900 chunks...
+31.10.2026 13:25:22 [Event] Saved 1200 chunks...
+31.10.2026 13:25:23 [Event] Saved 1500 chunks...
+31.10.2026 13:25:23 [Event] Saved 1800 chunks...
+31.10.2026 13:25:23 [Event] Saved 2100 chunks...
+31.10.2026 13:25:23 [Event] Saved 2400 chunks...
+31.10.2026 13:25:23 [Event] Saved 2700 chunks...
+31.10.2026 13:25:23 [Event] Saved 3000 chunks...
+31.10.2026 13:25:23 [Event] Saved 3300 chunks...
+31.10.2026 13:25:23 [Event] Saved 3600 chunks...
+31.10.2026 13:25:23 [Event] Saved 3900 chunks...
+31.10.2026 13:25:23 [Event] Saved 4200 chunks...
+31.10.2026 13:25:23 [Event] Saved 4500 chunks...
+31.10.2026 13:25:23 [Event] Saved 4800 chunks...
+31.10.2026 13:25:23 [Event] Saved 5100 chunks...
+31.10.2026 13:25:23 [Event] Saved 5400 chunks...
+31.10.2026 13:25:23 [Event] Saved 5700 chunks...
+31.10.2026 13:25:23 [Event] Saved 6000 chunks...
+31.10.2026 13:25:23 [Event] Saved 6300 chunks...
+31.10.2026 13:25:23 [Event] Saved 6600 chunks...
+31.10.2026 13:25:23 [Event] Saved 6900 chunks...
+31.10.2026 13:25:23 [Event] Saved 7200 chunks...
+31.10.2026 13:25:23 [Event] Saved 7500 chunks...
+31.10.2026 13:25:23 [Event] Saved 7800 chunks...
+31.10.2026 13:25:23 [Event] Saved 8100 chunks...
+31.10.2026 13:25:23 [Event] Saved 8400 chunks...
+31.10.2026 13:25:23 [Event] Saved 8700 chunks...
+31.10.2026 13:25:23 [Event] Saved 9000 chunks...
+31.10.2026 13:25:23 [Event] Saved 9300 chunks...
+31.10.2026 13:25:23 [Event] Saved 9600 chunks...
+31.10.2026 13:25:23 [Event] Saved 9900 chunks...
+31.10.2026 13:25:23 [Event] Saved 10200 chunks...
+31.10.2026 13:25:23 [Event] Saved 10500 chunks...
+31.10.2026 13:25:23 [Event] Saved 10800 chunks...
+31.10.2026 13:25:23 [Event] Saved 11100 chunks...
+31.10.2026 13:25:23 [Event] Saved 11400 chunks...
+31.10.2026 13:25:23 [Event] Saved 11700 chunks...
+31.10.2026 13:25:23 [Event] Saved 12000 chunks...
+31.10.2026 13:25:23 [Event] Saved 12300 chunks...
+31.10.2026 13:25:23 [Event] Saved 12600 chunks...
+31.10.2026 13:25:23 [Event] Saved 12900 chunks...
+31.10.2026 13:25:23 [Event] Saved 13200 chunks...
+31.10.2026 13:25:23 [Event] Saved loaded chunks...
+31.10.2026 13:25:23 [Event] The mountains fade...
+31.10.2026 13:25:23 [Event] The dark settles in.
+31.10.2026 13:25:23 [Event] Saved generating chunks...
+31.10.2026 13:25:23 [Event] Saved savegamedata...2
+31.10.2026 13:25:23 [Event] World saved! Saved 13448 chunks, 1681 mapchunks, 36 mapregions.
+31.10.2026 13:25:23 [Event] It sighs...
+31.10.2026 13:25:23 [Event] Shutting down 10 server threads... 
+31.10.2026 13:25:23 [Event] Killed console thread
+31.10.2026 13:25:23 [Event] Alone again...
+31.10.2026 13:25:24 [Event] All threads gracefully shut down
+31.10.2026 13:25:24 [Event] Time to rest.
+31.10.2026 13:25:24 [Event] Doing last tick...
+31.10.2026 13:25:24 [Event] Stopped the server!
+31.10.2026 13:25:24 [Error] At position 511364, 86, 512055 for block chest-east a BlockEntityGenericTypedContainer threw an error when ticked:
+31.10.2026 13:25:24 [Error] Exception: Object reference not set to an instance of an object.
+   at Vintagestory.GameContent.RoomRegistry.FindRoomForPosition(BlockPos pos, ChunkRooms otherRooms) in VSEssentials\Systems\RoomRegistry.cs:line 437
+   at Vintagestory.GameContent.RoomRegistry.GetRoomForPosition(BlockPos pos) in VSEssentials\Systems\RoomRegistry.cs:line 387
+   at Vintagestory.GameContent.InWorldContainer.OnTick(Single dt) in VSEssentials\Inventory\InWorldContainer.cs:line 110
+   at Vintagestory.Common.GameTickListenerBlock.OnTriggered_Patch3(GameTickListenerBlock this, IWorldAccessor worldAccessor, BlockPos pos, Int64 ellapsedMilliseconds)

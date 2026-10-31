@@ -1,0 +1,15 @@
+{
+  "game": "1.22.7",
+  "mods": {
+    "synergy": {},
+    "tungsten": {}
+  },
+  "variants": [
+    { "id": "baseline", "label": "Vanilla 1.22.7, no mods", "mods": [] },
+    { "id": "synergy", "label": "Synergy", "mods": ["synergy"] },
+    { "id": "synergy_noar", "label": "Synergy, activation range off", "mods": ["synergy"],
+      "config": { "Synergy.json": { "EntityActivationRangeEnabled": false } } },
+    { "id": "tungsten", "label": "Tungsten", "mods": ["tungsten"] },
+    { "id": "all", "label": "Synergy + Tungsten together", "mods": ["synergy", "tungsten"], "collection": true }
+  ]
+}

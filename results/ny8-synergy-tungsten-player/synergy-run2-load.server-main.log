@@ -1,0 +1,312 @@
+31.10.2026 14:07:43 [Notification] Server logger started.
+31.10.2026 14:07:43 [Notification] Game Version: v1.22.7 (Stable)
+31.10.2026 14:07:43 [Notification] C# Framework: .net 10.0.12
+31.10.2026 14:07:43 [Notification] Zstd Version: 1.5.7
+31.10.2026 14:07:43 [Notification] Operating System: Linux (Debian GNU/Linux 13 (trixie)) [Kernel 6.8.0.147]
+31.10.2026 14:07:43 [Notification] CPU Cores: 4
+31.10.2026 14:07:43 [Notification] CPU: AMD Ryzen 9 9950X 16-Core Processor
+31.10.2026 14:07:43 [Notification] Available RAM: 255325 MB
+31.10.2026 14:07:43 [Event] It begins...
+31.10.2026 14:07:43 [Event] Launching server...
+31.10.2026 14:07:43 [Event] It senses...
+31.10.2026 14:07:43 [Event] Server v1.22.7, network v1.22.6, api v1.22.0
+31.10.2026 14:07:43 [Notification] Entering runphase Initialization
+31.10.2026 14:07:43 [Event] Loading configuration...
+31.10.2026 14:07:43 [Notification] Entering runphase Configuration
+31.10.2026 14:07:43 [Notification] Using world seed: 20261030
+31.10.2026 14:07:43 [Notification] Loading savegame
+31.10.2026 14:07:43 [Notification] Loaded existing save game data. Playstyle: surviveandbuild, Playstyle Lang code: surviveandbuild-bands, WorldType: standard
+31.10.2026 14:07:43 [Notification] Savegame ~/benchdata-mods/synergy-2/Saves/bench.vcdbs loaded
+31.10.2026 14:07:43 [Notification] World size = 1024000 256 1024000
+31.10.2026 14:07:43 [Notification] Start discovering assets
+31.10.2026 14:07:43 [Notification] Found 2 base assets in category blocktypes
+31.10.2026 14:07:43 [Notification] Found 0 base assets in category itemtypes
+31.10.2026 14:07:43 [Notification] Found 35 base assets in category lang
+31.10.2026 14:07:43 [Notification] Found 0 base assets in category patches
+31.10.2026 14:07:43 [Notification] Found 24 base assets in category config
+31.10.2026 14:07:43 [Notification] Found 0 base assets in category worldproperties
+31.10.2026 14:07:43 [Notification] Found 1 base assets in category sounds
+31.10.2026 14:07:43 [Notification] Found 230 base assets in category shapes
+31.10.2026 14:07:43 [Notification] Found 21 base assets in category textures
+31.10.2026 14:07:43 [Notification] Found 0 base assets in category recipes
+31.10.2026 14:07:43 [Notification] Found 0 base assets in category worldgen
+31.10.2026 14:07:43 [Notification] Found 3 base assets in category entities
+31.10.2026 14:07:43 [Notification] Found 316 base assets in total
+31.10.2026 14:07:43 [Event] Building assets...
+31.10.2026 14:07:43 [Notification] Entering runphase LoadAssets
+31.10.2026 14:07:43 [Notification] Will search the following paths for mods:
+31.10.2026 14:07:43 [Notification]     ~/servers/vanilla/Mods
+31.10.2026 14:07:43 [Notification]     ~/modbench/mod
+31.10.2026 14:07:43 [Notification]     ~/mods/sets/synergy
+31.10.2026 14:07:43 [Notification] Found 5 mods (0 disabled)
+31.10.2026 14:07:43 [Notification] Mods, sorted by dependency: game, suhbench, synergy, creative, survival
+31.10.2026 14:07:43 [Notification] Instantiated 150 mod systems from 5 enabled mods
+31.10.2026 14:07:43 [Notification] External Origins in load order: modorigin@~/servers/vanilla/assets/creative/, modorigin@~/servers/vanilla/assets/survival/, mod@Synergy-1.1.25.zip
+31.10.2026 14:07:43 [Notification] Found 541 external assets in category blocktypes
+31.10.2026 14:07:43 [Notification] Found 315 external assets in category itemtypes
+31.10.2026 14:07:43 [Notification] Found 31 external assets in category lang
+31.10.2026 14:07:43 [Notification] Found 10 external assets in category patches
+31.10.2026 14:07:43 [Notification] Found 128 external assets in category config
+31.10.2026 14:07:43 [Notification] Found 25 external assets in category worldproperties
+31.10.2026 14:07:43 [Notification] Found 1 external assets in category sounds
+31.10.2026 14:07:43 [Notification] Found 6123 external assets in category shapes
+31.10.2026 14:07:43 [Notification] Found 25 external assets in category textures
+31.10.2026 14:07:43 [Notification] Found 419 external assets in category recipes
+31.10.2026 14:07:43 [Notification] Found 1455 external assets in category worldgen
+31.10.2026 14:07:43 [Notification] Found 74 external assets in category entities
+31.10.2026 14:07:43 [Notification] Found 0 external assets in category compatibility
+31.10.2026 14:07:43 [Notification] Reloaded lang file with mod assets
+31.10.2026 14:07:43 [Notification] Compatibility lib: 0 assets added, 0 assets replaced.
+31.10.2026 14:07:43 [Notification] JsonPatch Loader: 14 patches total, successfully applied 14 patches, unmet conditions on 23 patches, no errors
+31.10.2026 14:07:44 [Event] It remembers...
+31.10.2026 14:07:44 [Notification] Loaded 4468 unique items
+31.10.2026 14:07:44 [Event] All that came before...
+31.10.2026 14:07:46 [Notification] Loaded 14089 unique blocks
+31.10.2026 14:07:47 [Notification] Loaded 820 unique entitiess
+31.10.2026 14:07:47 [Notification] BlockLoader: Entities, Blocks and Items loaded
+31.10.2026 14:07:47 [Notification] Remapper: No applicable remappings found for this save game, all seems good for now
+31.10.2026 14:07:47 [Event] Remapping blocks and items...
+31.10.2026 14:07:47 [Event] 15 cooking recipes loaded
+31.10.2026 14:07:47 [Event] Taste and smell...
+31.10.2026 14:07:47 [Event] 9 metal alloys loaded
+31.10.2026 14:07:47 [Event] Glimmers in the soil...
+31.10.2026 14:07:48 [Event] 1152 grid recipes loaded from 268 files
+31.10.2026 14:07:48 [Event] Grand inventions...
+31.10.2026 14:07:48 [Event] 44 smithing recipes loaded from 43 files
+31.10.2026 14:07:48 [Event] Burning sparks...
+31.10.2026 14:07:48 [Event] 31 clay forming recipes loaded from 31 files
+31.10.2026 14:07:48 [Event] Molded forms...
+31.10.2026 14:07:48 [Event] 12 knapping recipes loaded from 12 files
+31.10.2026 14:07:48 [Event] Simple tools...
+31.10.2026 14:07:48 [Event] 90 barrel recipe recipes loaded from 41 files
+31.10.2026 14:07:48 [Notification] Tags registry was locked.
+31.10.2026 14:07:48 [Notification] Entering runphase AssetsFinalize
+31.10.2026 14:07:48 [Event] Server assets loaded, parsed, registered and finalized
+31.10.2026 14:07:48 [Event] Initialising systems...
+31.10.2026 14:07:48 [Notification] Entering runphase LoadGamePre
+31.10.2026 14:07:48 [Notification] [SuhBench] system timing enabled on 15 methods
+31.10.2026 14:07:48 [Notification] [SuhBench] mod timing: 2 listener classes patched
+31.10.2026 14:07:48 [Notification] [SuhBench] armed: label=synergy mode=load radius=20 entities=0 ladder=
+31.10.2026 14:07:48 [Notification] Reloaded 19 weather patterns, 5 wind patterns and 5 weather events
+31.10.2026 14:07:48 [Notification] [Synergy] Configuration loaded
+31.10.2026 14:07:48 [Notification] [Synergy] Server-side initializing...
+31.10.2026 14:07:48 [Notification] [Synergy] Metrics system initialized
+31.10.2026 14:07:48 [Notification] [Synergy] GC diagnostics — Server GC: False, Latency: Interactive, Heap: 510 MB, Committed: 528 MB, Fragmented: 7 MB
+31.10.2026 14:07:49 [Notification] [Synergy] BlockTickPooling: Block tick pooling optimization active
+31.10.2026 14:07:49 [Notification] [Synergy] InventoryScan: Inventory dirty scan optimization active (MarkSlotDirty + fallbacks)
+31.10.2026 14:07:49 [Notification] [Synergy] TrackingHysteresis: Entity tracking hysteresis active
+31.10.2026 14:07:49 [Notification] [Synergy] SendFrequency: Distance-based send frequency active
+31.10.2026 14:07:49 [Notification] [Synergy] AttributeSync: No-op RemoveAttribute skip active
+31.10.2026 14:07:49 [Notification] [Synergy] SpawnPriority: Entity spawn priority ordering active
+31.10.2026 14:07:49 [Notification] [Synergy] CollisionFastPath: Entity collision fast-path active
+31.10.2026 14:07:49 [Notification] [Synergy] ActivationRange: Entity activation range optimization active (range: 48 blocks)
+31.10.2026 14:07:49 [Notification] [Synergy] ActivationRange: Excluded entities (always full-tick): smoke
+31.10.2026 14:07:49 [Notification] [Synergy] PathfindingPool: Pathfinding node pooling active (pool size: 4096)
+31.10.2026 14:07:49 [Notification] [Synergy] PathfindingThrottle: Pathfinding distance throttle active
+31.10.2026 14:07:49 [Notification] [Synergy] RepulseThrottle: Entity repulsion throttle active
+31.10.2026 14:07:49 [Notification] [Synergy] AiBrainThrottle: AI brain tick throttle active (divisor=512, maxFreq=20)
+31.10.2026 14:07:49 [Notification] [Synergy] Channel manager initialized
+31.10.2026 14:07:49 [Notification] [Synergy] DeltaEncoding: Active
+31.10.2026 14:07:49 [Notification] [Synergy] Server-side loaded (13 optimizations active)
+31.10.2026 14:07:49 [Notification] Started 127 systems on Server:
+31.10.2026 14:07:49 [Notification]     Mod 'VSEssentials.dll' (game):
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.Core
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenTerra
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenSnowLayer
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.EntityPartitioning
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ErrorReporter
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenTerraPostProcess
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.ModCompatiblityUtil
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.NoObf.ModJsonPatchLoader
+31.10.2026 14:07:49 [Notification]         FluffyClouds.FluffyCloudsModSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.Systems.ModSystemTfEditFromAttributes
+31.10.2026 14:07:49 [Notification]         Vintagestory.Essentials.PathfindSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.Essentials.PathFindDebug
+31.10.2026 14:07:49 [Notification]         Vintagestory.Essentials.PathfindingAsync
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.JsonExport
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.ModBasicBlocksLoader
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenMaps
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenRockStrataNew
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenHotSprings
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenCreatures
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.ModSystemWorldGenStructures
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemItemRendererOptimizer
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.AiRuntimeConfig
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemSyncHarvestableDropsToClient
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemEmotes
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.LeafBlockDecay
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.POIRegistry
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.RoomRegistry
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.WeatherSystemCommands
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.WeatherSystemServer
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.SystemRemotePlayerTracking
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.WorldMapManager
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenDeposits
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.NoObf.ModRegistryObjectTypeLoader
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.LoadColorMaps
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenCaves
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenStructures
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.WgenCommands
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenBlockLayers
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenPonds
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ClothManager
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenStructuresPosPass
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenVegetationAndPatches
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenRivulets
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenLightSurvival
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.CollectibleBuffDebug
+31.10.2026 14:07:49 [Notification]     Mod 'VSSurvivalMod.dll' (survival):
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemControlPoints
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.SurvivalCoreSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.Systems.StoryLockableDoor
+31.10.2026 14:07:49 [Notification]         Vintagestory.Client.NoObf.StoryGenFailedSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.UpgradeTasks
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.ChiselBlockBulkSetMaterial
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.ModSystemDetailModeSync
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.NpcControl
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.ModSystemTiledDungeons
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemExplosionAffectedStability
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.MyceliumSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModsystemButterflySpawnCondsExtra
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemFishInstaFlee
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemCatchCreature
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.FishingSupportModSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemGliding
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemSnowShoveling
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemSubTongsDurability
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemSwoopDev
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.Timeswitch
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ClutterBookshelfUtil
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ScreenshakeToClientModSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemResoArchiveCommands
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.StoryStructuresSpawnConditions
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemNPCHairStyling
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemSkinnableAdditions
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemVillagerDebug
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemAuction
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemBlockReinforcement
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.Core
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemBoatingSoundAndRatlineStamina
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.CharacterSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.CustomSpawnConditions
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.VariablesModSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModsystemElevator
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ActivityModSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ActivityEditorSystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemFarming
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemCommandHandbook
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemTutorial
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.HeldItemMouseInputHandler
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemCorpseReturnTeleporter
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemNightVision
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.TobiasTeleporter
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModJournal
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.LiquidItemStackRenderer
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemStructureLocator
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModLootRandomizer
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemEntityOwnership
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemRifts
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemRiftWeather
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSleeping
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemSupportBeamPlacer
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.TeleporterManager
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModTemperature
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.SystemTemporalStability
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.TemporalStabilityEffects
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemClimateSpecificTraderTypes
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemWearableStats
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemEditableBook
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.Mechanics.ModSystemWindTurbulence
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.Mechanics.MechanicalPowerMod
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenDungeons
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.GenStoryStructures
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.WgenCommandsExt
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenDevastationLayer
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.RecipeRegistrySystem
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.RecipeLoader
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemFishDepletion
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemWormGrunting
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemFireFromLightning
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemOreMap
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemSnowballs
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.HumanoidOutfits
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.ModSystemDevastationEffects
+31.10.2026 14:07:49 [Notification]         Vintagestory.GameContent.DisableRecipeRegisteringSystem
+31.10.2026 14:07:49 [Notification]     Mod 'VSCreativeMod.dll' (creative):
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.Core
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.WorldEdit.WorldEdit
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenBlockLayersFlat
+31.10.2026 14:07:49 [Notification]         Vintagestory.ServerMods.GenLightCreative
+31.10.2026 14:07:49 [Notification]     Mod 'suhbench' (suhbench):
+31.10.2026 14:07:49 [Notification]         SuhBench.BenchModSystem
+31.10.2026 14:07:49 [Notification]     Mod 'Synergy-1.1.25.zip' (synergy):
+31.10.2026 14:07:49 [Notification]         Synergy.SynergyMod
+31.10.2026 14:07:49 [Event] 26 traits loaded from 1 files
+31.10.2026 14:07:49 [Event] 6 classes loaded from 1 files
+31.10.2026 14:07:50 [Notification] Server map set
+31.10.2026 14:07:50 [Event] A world unbroken...
+31.10.2026 14:07:50 [Notification] Entering runphase GameReady
+31.10.2026 14:07:50 [Notification] Entering runphase WorldReady
+31.10.2026 14:07:50 [Event] The center unfolding...
+31.10.2026 14:07:50 [Event] Starting world generators...
+31.10.2026 14:07:53 [Notification] Reloaded 35 tree generators
+31.10.2026 14:07:53 [Event] Loading 7x7x8 spawn chunks...
+31.10.2026 14:07:53 [Event] 0% (49 in queue)
+31.10.2026 14:07:53 [Event] The carved mountains...
+31.10.2026 14:07:54 [Event] Begin game ticking...
+31.10.2026 14:07:54 [Event] ... it calls to you
+31.10.2026 14:07:54 [Notification] Entering runphase RunGame
+31.10.2026 14:07:54 [Notification] [SuhBench] mod timing: 0 mod entity behaviours patched (0 behaviour types seen in mod assemblies); assemblies mapped: SuhBench->suhbench, Synergy->synergy
+31.10.2026 14:07:54 [Notification] [SuhBench] RunGame reached after 10713 ms with 5 mods (1 under test), starting worldgen phase
+31.10.2026 14:07:54 [Notification] [SuhBench] waiting for a player to join before starting
+31.10.2026 14:07:54 [Notification] Successfully loaded 1 waypoints
+31.10.2026 14:07:54 [Notification] Starting server threads
+31.10.2026 14:07:54 [Event] Dedicated Server now running on Port 42777 and all ips!
+31.10.2026 14:07:54 [Event] Return again.
+31.10.2026 14:07:54 [Notification] Please be aware that as of 1.20, servers default configurations have changed - servers no longer register themselves to the public servers list and are invite-only (whitelisted) out of the box. If you desire so, you can enable server advertising with '/serverconfig advertise on' and disable the whitelist mode with '/serverconfig whitelistmode off'
+31.10.2026 14:07:54 [Notification] A Client attempts connecting via TCP on [::ffff:127.0.0.1]:44268, assigning client id 1
+31.10.2026 14:07:54 [Notification] Client 1 uid suhbot-suhbenchbot attempting identification. Name: SUHBenchBot
+31.10.2026 14:07:54 [Notification] Sending server identification. Server control privilege is False
+31.10.2026 14:07:54 [Notification] Placing SUHBenchBot at 512035.5 113 511993.5
+31.10.2026 14:07:54 [Notification] [SuhBench] player present: SUHBenchBot; starting worldgen phase 257 ms after RunGame
+31.10.2026 14:07:54 [Notification] [SuhBench] requested 1681 chunk columns (radius 20) around chunk 16000,16000
+31.10.2026 14:07:54 [Event] SUHBenchBot [::ffff:127.0.0.1]:44268 joins.
+31.10.2026 14:07:55 [Notification] [SuhBench] phase worldgen done: wall 1380 ms, cpu 2553 ms, ticks 18, mean 65.26 ms, p99 269.61 ms
+31.10.2026 14:08:04 [Warning] QueueTask: UDPServerDidReceiveUdp_1 threw an exception!
+31.10.2026 14:08:04 [Warning] Exception: Value cannot be null. (Parameter 'key')
+   at System.Collections.Generic.Dictionary`2.Remove(TKey key)
+   at Vintagestory.Server.ServerMain.<>c__DisplayClass335_0.<<FinalizePlayerIdentification>b__0>d.MoveNext() in VintagestoryLib\Server\ServerMainNetworking.cs:line 463
+--- End of stack trace from previous location ---
+   at Vintagestory.API.Common.TyronThreadPool.<>c__DisplayClass12_0.<<QueueTask>b__0>d.MoveNext() in VintagestoryApi\Common\TyronThreadPool.cs:line 136
+31.10.2026 14:08:15 [Notification] [SuhBench] phase settle done: wall 20133 ms, cpu 4562 ms, ticks 600, mean 3.48 ms, p99 10.91 ms
+31.10.2026 14:08:26 [Notification] [SuhBench] phase idle done: wall 10197 ms, cpu 1350 ms, ticks 304, mean 3.02 ms, p99 10.45 ms
+31.10.2026 14:08:26 [Notification] [SuhBench] wrote /home/container/results-mods-player/synergy-run2-load.json
+31.10.2026 14:08:26 [Notification] [SuhBench] shutting down
+31.10.2026 14:08:33 [Notification] Client 1 disconnected: Server shutting down - Forced: Shutdown through Server API
+31.10.2026 14:08:33 [Notification] Last player disconnected, compacting large object heap...
+31.10.2026 14:08:34 [Event] Player SUHBenchBot got removed. Reason: Server shutting down - Forced: Shutdown through Server API
+31.10.2026 14:08:34 [Notification] Server stop requested, begin shutdown sequence. Stop reason: Forced: Shutdown through Server API
+31.10.2026 14:08:34 [Notification] Server ticking has been suspended
+31.10.2026 14:08:34 [Notification] Entering runphase Shutdown
+31.10.2026 14:08:34 [Event] Mods and systems notified, now saving everything...
+31.10.2026 14:08:34 [Event] It pauses.
+31.10.2026 14:08:34 [Event] One last gaze...
+31.10.2026 14:08:34 [Event] Saved player world data...
+31.10.2026 14:08:34 [Event] Saved map regions...
+31.10.2026 14:08:34 [Event] Then all goes quiet...
+31.10.2026 14:08:34 [Event] Saved map chunks...
+31.10.2026 14:08:34 [Event] The waters recede...
+31.10.2026 14:08:34 [Event] Saved loaded chunks...
+31.10.2026 14:08:34 [Event] The mountains fade...
+31.10.2026 14:08:34 [Event] The dark settles in.
+31.10.2026 14:08:34 [Event] Saved generating chunks...
+31.10.2026 14:08:34 [Event] Saved savegamedata...2
+31.10.2026 14:08:34 [Event] World saved! Saved 106 chunks, 716 mapchunks, 36 mapregions.
+31.10.2026 14:08:34 [Event] It sighs...
+31.10.2026 14:08:34 [Event] Shutting down 10 server threads... 
+31.10.2026 14:08:34 [Event] Killed console thread
+31.10.2026 14:08:34 [Event] Alone again...
+31.10.2026 14:08:35 [Event] All threads gracefully shut down
+31.10.2026 14:08:35 [Event] Time to rest.
+31.10.2026 14:08:35 [Event] Doing last tick...
+31.10.2026 14:08:35 [Event] Stopped the server!

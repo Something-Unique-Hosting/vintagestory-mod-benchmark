@@ -1,0 +1,6 @@
+build/
+bin/
+obj/
+*.pdb
+mods/pool/
+benchdata*/
