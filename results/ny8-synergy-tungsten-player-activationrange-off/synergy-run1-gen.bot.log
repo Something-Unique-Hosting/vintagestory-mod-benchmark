@@ -1,0 +1,8 @@
+[15:50:26] [VSBot] connected to 127.0.0.1:42777; identifying as SUHBenchBot (uid suhbot-suhbenchbot), network version 1.22.6, game 1.22.7
+[15:50:42] [VSBot] server identification received
+[15:50:42] [VSBot] server ready, requesting join
+[15:50:42] [VSBot] own player data received (entity 27, spawn 512000,114,512000); sending ClientLoaded, ClientPlaying, positions over TCP
+[15:50:42] [VSBot] level finalize received
+[15:51:26] [VSBot] alive: 3070 packets, 3120 KB received, 44 pings answered, playing=True
+[15:52:26] [VSBot] alive: 7750 packets, 6124 KB received, 104 pings answered, playing=True
+[15:52:54] [VSBot] disconnected by server: Server shutting down - Forced: Shutdown through Server API

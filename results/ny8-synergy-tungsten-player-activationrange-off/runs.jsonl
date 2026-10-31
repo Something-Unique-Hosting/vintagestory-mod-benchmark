@@ -1,0 +1,9 @@
+{"variant":"baseline","run":1,"mode":"gen","rc":0,"elapsed_s":152,"ok":"ok"}
+{"variant":"synergy","run":1,"mode":"gen","rc":0,"elapsed_s":152,"ok":"ok"}
+{"variant":"synergy_noar","run":1,"mode":"gen","rc":0,"elapsed_s":152,"ok":"ok"}
+{"variant":"synergy_noar","run":2,"mode":"gen","rc":0,"elapsed_s":152,"ok":"ok"}
+{"variant":"synergy","run":2,"mode":"gen","rc":0,"elapsed_s":151,"ok":"ok"}
+{"variant":"baseline","run":2,"mode":"gen","rc":0,"elapsed_s":152,"ok":"ok"}
+{"variant":"baseline","run":3,"mode":"gen","rc":0,"elapsed_s":151,"ok":"ok"}
+{"variant":"synergy","run":3,"mode":"gen","rc":0,"elapsed_s":154,"ok":"ok"}
+{"variant":"synergy_noar","run":3,"mode":"gen","rc":0,"elapsed_s":154,"ok":"ok"}

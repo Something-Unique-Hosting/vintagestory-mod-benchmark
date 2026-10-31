@@ -36,7 +36,7 @@ rcParams.update({
     "text.color": TEXT, "legend.labelcolor": TEXT,
 })
 
-TAG = ""; LABELS = {}; COLORS = {}; ORDER = []; BASE = "baseline"; COLLECTION = None; LOCK = None
+TAG = ""; LABELS = {}; COLORS = {}; ORDER = []; BASE = "baseline"; COLLECTION = None; LOCK = None; NO_DOTS = False
 
 
 def load(results, exclude=()):
@@ -70,9 +70,9 @@ def bars_with_runs(ax, groups, variants, data, unit, title, sub=None, fmt="{:.1f
         ax.bar(xs, meds, width=w - 0.03, color=COLORS[v], label=LABELS[v], linewidth=0, zorder=2)
         for xi, g, m in zip(xs, groups, meds):
             pts = data[(v, g)]
-            ax.scatter([xi] * len(pts), pts, s=12, color=SURFACE, edgecolor=TEXT2, linewidth=0.8, zorder=3)
+            if not NO_DOTS: ax.scatter([xi] * len(pts), pts, s=12, color=SURFACE, edgecolor=TEXT2, linewidth=0.8, zorder=3)
             if not np.isnan(m):
-                top = max([m] + pts)
+                top = m if NO_DOTS else max([m] + pts)
                 ax.text(xi, top, fmt.format(m), ha="center", va="bottom", fontsize=8 if n > 4 else 9.5, color=TEXT, zorder=4, rotation=90 if n > 5 else 0)
                 ymax = max(ymax, top)
     ax.set_xticks(x, groups); ax.set_ylabel(unit); ax.set_ylim(0, ymax * (1.3 if n > 5 else 1.18) if ymax else 1); ax.set_title(title)
@@ -90,10 +90,16 @@ def main():
     ap.add_argument("--tag", default=""); ap.add_argument("--exclude", default=""); ap.add_argument("--dark", action="store_true")
     ap.add_argument("--lock", default=None, help="variants.lock.json (default: <results>/variants.lock.json)")
     ap.add_argument("--baseline", default="baseline")
+    ap.add_argument("--only", default="", help="comma list of variant ids to chart (others are dropped from this run; keep a full run for the tables)")
+    ap.add_argument("--no-dots", action="store_true", help="bars without the per-run dots")
+    ap.add_argument("--relabel", default="", help="id=Label;id=Label overrides for chart legends")
     a = ap.parse_args()
     TAG = (" " + a.tag) if a.tag else ""; BASE = a.baseline
     res = pathlib.Path(a.results); out = pathlib.Path(a.out); out.mkdir(parents=True, exist_ok=True)
     runs = load(res, [x for x in a.exclude.split(",") if x])
+    if a.only:
+        keep = set(a.only.split(",")); runs = {k: v for k, v in runs.items() if k[0] in keep}
+    global NO_DOTS; NO_DOTS = a.no_dots
     lock_path = pathlib.Path(a.lock) if a.lock else res / "variants.lock.json"
     LOCK = json.loads(lock_path.read_text()) if lock_path.exists() else None
 
@@ -111,6 +117,9 @@ def main():
         LABELS = {v: v for v in ORDER}
         if "all" in present: COLLECTION = "all"
     for v in present - set(ORDER): ORDER.append(v); LABELS.setdefault(v, v)
+    if COLLECTION not in present: COLLECTION = None
+    for kv in [x for x in a.relabel.split(";") if "=" in x]:   # id=Label;id=Label (labels may contain commas)
+        k, lab = kv.split("=", 1); LABELS[k] = lab
     singles = [v for v in ORDER if v != BASE and v != COLLECTION]
     if len(singles) + (1 if COLLECTION else 0) > len(SLOTS): print(f"WARNING: {len(ORDER)} variants exceeds the {len(SLOTS)} categorical slots; split into several runs or facet")
     slot = 0
@@ -134,6 +143,10 @@ def main():
     chunks = next((r["worldgen"]["chunks"] for rs in runs.values() for r in rs if "worldgen" in r), 0)
     ents = next((r["entities"]["entities_spawned"] for rs in runs.values() for r in rs if "entities" in r), 0)
     nmods = len(singles)
+    anyrun = next((r for rs in runs.values() for r in rs), {})
+    players = anyrun.get("players_online_at_start", 0) or 0; forced = anyrun.get("creatures_always_active", True)
+    scenario = (f"{players} player online at spawn; creatures spawned within {anyrun.get('spawn_range')} blocks and simulated by the game's own rules." if players
+                else "No players online; creatures forced active.")
 
     # ---------- 01 startup ----------
     data = {}
@@ -184,7 +197,7 @@ def main():
     record("worldgen_columns_per_s", "columns/s", {v: [cols / x for x in data[(v, "Generate new chunks")]] for v in V}, lower_is_better=False)
     fig, ax = plt.subplots(figsize=(9, 5), dpi=160)
     bars_with_runs(ax, ["Generate new chunks", "Reload from disk"], V, data, "seconds (lower is better)",
-                   f"Time to load {cols:,} chunk columns ({chunks:,} chunks) around spawn", "Bars are the median of all runs; dots are individual runs. Fresh world, fixed seed, no players. Worldgen mods do their work here.")
+                   f"Time to load {cols:,} chunk columns ({chunks:,} chunks) around spawn", ("Bars are the median of all runs" + ("" if NO_DOTS else "; dots are individual runs") + ". Fresh world, fixed seed. Worldgen mods do their work here."))
     save(fig, out, "03_worldgen_time.png")
     data = {}
     for v in V:
@@ -197,8 +210,8 @@ def main():
 
     # ---------- 05/06 tick time ----------
     for phase, fname, title, sub in [
-        ("idle", "05_tick_idle.png", f"Main-thread tick time at idle ({cols:,} chunk columns loaded, no players)", "Lower is better. Measured on every server tick for the whole phase. This is what a mod costs when nothing is happening."),
-        ("entities", "06_tick_entities.png", f"Main-thread tick time with {ents} active creatures", "Lower is better. Vintage Story budgets 33.3 ms per tick (30 TPS). No players online; creatures forced active."),
+        ("idle", "05_tick_idle.png", f"Main-thread tick time at idle ({cols:,} chunk columns loaded, " + (f"{players} player" if players else "no players") + ")", "Lower is better. Measured on every server tick for the whole phase. This is what a mod costs when nothing is happening."),
+        ("entities", "06_tick_entities.png", f"Main-thread tick time with {ents} " + ("active " if forced else "") + "creatures", "Lower is better. Vintage Story budgets 33.3 ms per tick (30 TPS). " + scenario),
     ]:
         data = {}
         for v in V:
@@ -223,7 +236,7 @@ def main():
         ax.set_xticks([0.5, 1, 2, 5, 10, 20, 33.3, 50, 100, 200], ["0.5", "1", "2", "5", "10", "20", "33", "50", "100", "200"])
         ax.axvline(33.3, color=TEXT2, linewidth=0.8, linestyle=(0, (4, 3))); ax.text(34, 5, "33.3 ms budget", fontsize=9, color=TEXT2, rotation=90, va="bottom")
         ax.set_xlabel("tick duration, ms (log scale)"); ax.set_ylabel("% of ticks at or below")
-        ax.set_title(f"How long ticks take with {ents} active creatures: distribution")
+        ax.set_title(f"How long ticks take with {ents} " + ("active " if forced else "") + "creatures: distribution")
         subtitle(ax, "Every tick from every run pooled. Further left is faster; a curve that reaches 100% sooner has a shorter tail.")
         ax.legend(loc="lower right", fontsize=9); style_axes(ax); ax.grid(True, axis="x", color=GRID, linewidth=0.5)
         save(fig, out, "07_tick_cdf.png")

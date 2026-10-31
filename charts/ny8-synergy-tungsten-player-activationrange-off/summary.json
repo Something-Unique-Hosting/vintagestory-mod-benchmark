@@ -1,0 +1,1382 @@
+{
+  "baseline": "baseline",
+  "collection": null,
+  "game_version": "1.22.7",
+  "variants": [
+    {
+      "id": "baseline",
+      "label": "Vanilla 1.22.7, no mods",
+      "color": "#8e99a6"
+    },
+    {
+      "id": "synergy",
+      "label": "Synergy 1.1.25",
+      "color": "#3987e5"
+    },
+    {
+      "id": "synergy_noar",
+      "label": "Synergy, activation range off",
+      "color": "#d95926"
+    }
+  ],
+  "runs": {
+    "baseline/gen": 3,
+    "synergy/gen": 3,
+    "synergy_noar/gen": 3
+  },
+  "metrics": {
+    "startup_fresh_s": {
+      "baseline": {
+        "median": 15.7595373,
+        "runs": [
+          15.5868088,
+          16.244108,
+          15.7595373
+        ]
+      },
+      "synergy": {
+        "median": 16.958597,
+        "runs": [
+          16.958597,
+          15.9832922,
+          17.410042
+        ]
+      },
+      "synergy_noar": {
+        "median": 15.883586600000001,
+        "runs": [
+          15.883586600000001,
+          15.597730100000001,
+          16.1148717
+        ]
+      },
+      "change_pct": {
+        "synergy": 7.6084702055307245,
+        "synergy_noar": 0.7871379574069167
+      },
+      "delta": {
+        "synergy": 1.1990597000000012,
+        "synergy_noar": 0.12404930000000114
+      },
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "startup_existing_s": {
+      "baseline": {
+        "median": NaN,
+        "runs": []
+      },
+      "synergy": {
+        "median": NaN,
+        "runs": []
+      },
+      "synergy_noar": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": {
+        "synergy": NaN,
+        "synergy_noar": NaN
+      },
+      "delta": {
+        "synergy": NaN,
+        "synergy_noar": NaN
+      },
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "worldgen_wall_s": {
+      "baseline": {
+        "median": 40.0834074,
+        "runs": [
+          40.0834074,
+          39.5167442,
+          40.325126499999996
+        ]
+      },
+      "synergy": {
+        "median": 40.0477633,
+        "runs": [
+          39.7907437,
+          40.0477633,
+          40.3367268
+        ]
+      },
+      "synergy_noar": {
+        "median": 40.341237899999996,
+        "runs": [
+          40.341237899999996,
+          40.06809689999999,
+          41.92927770000001
+        ]
+      },
+      "change_pct": {
+        "synergy": -0.08892482528817887,
+        "synergy_noar": 0.6432349860555946
+      },
+      "delta": {
+        "synergy": -0.03564409999999896,
+        "synergy_noar": 0.2578304999999972
+      },
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "reload_wall_s": {
+      "baseline": {
+        "median": NaN,
+        "runs": []
+      },
+      "synergy": {
+        "median": NaN,
+        "runs": []
+      },
+      "synergy_noar": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": {
+        "synergy": NaN,
+        "synergy_noar": NaN
+      },
+      "delta": {
+        "synergy": NaN,
+        "synergy_noar": NaN
+      },
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "worldgen_columns_per_s": {
+      "baseline": {
+        "median": 41.93755244470559,
+        "runs": [
+          41.93755244470559,
+          42.5389296115139,
+          41.686168052070464
+        ]
+      },
+      "synergy": {
+        "median": 41.97487853210519,
+        "runs": [
+          42.246006073015415,
+          41.97487853210519,
+          41.674179670919656
+        ]
+      },
+      "synergy_noar": {
+        "median": 41.66951951665321,
+        "runs": [
+          41.66951951665321,
+          41.95357728607271,
+          40.09131786212477
+        ]
+      },
+      "change_pct": {
+        "synergy": 0.08900397191470123,
+        "synergy_noar": -0.639123917414536
+      },
+      "delta": {
+        "synergy": 0.03732608739959886,
+        "synergy_noar": -0.2680329280523779
+      },
+      "unit": "columns/s",
+      "lower_is_better": false
+    },
+    "worldgen_cpu_s": {
+      "baseline": {
+        "median": 46.869445,
+        "runs": [
+          46.869445,
+          46.392652999999996,
+          47.206602
+        ]
+      },
+      "synergy": {
+        "median": 46.779939,
+        "runs": [
+          46.41299,
+          46.779939,
+          47.148948
+        ]
+      },
+      "synergy_noar": {
+        "median": 47.392635999999996,
+        "runs": [
+          47.392635999999996,
+          47.308239,
+          49.248863
+        ]
+      },
+      "change_pct": {
+        "synergy": -0.1909687644050406,
+        "synergy_noar": 1.1162730858024819
+      },
+      "delta": {
+        "synergy": -0.08950600000000009,
+        "synergy_noar": 0.5231909999999971
+      },
+      "unit": "s",
+      "lower_is_better": true
+    },
+    "idle_tick_mean_ms": {
+      "baseline": {
+        "median": 2.1755252166666668,
+        "runs": [
+          2.058500514999998,
+          2.3971580416666667,
+          2.1755252166666668
+        ]
+      },
+      "synergy": {
+        "median": 2.354149926666667,
+        "runs": [
+          2.3055622499999977,
+          2.354149926666667,
+          2.5697067033333325
+        ]
+      },
+      "synergy_noar": {
+        "median": 2.268517976666669,
+        "runs": [
+          1.9568146649999991,
+          2.268517976666669,
+          2.4254541249999995
+        ]
+      },
+      "change_pct": {
+        "synergy": 8.210647646442292,
+        "synergy_noar": 4.274496994453847
+      },
+      "delta": {
+        "synergy": 0.17862471000000024,
+        "synergy_noar": 0.09299276000000223
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_median_ms": {
+      "baseline": {
+        "median": 2.0771865,
+        "runs": [
+          2.0086675,
+          2.2680825000000002,
+          2.0771865
+        ]
+      },
+      "synergy": {
+        "median": 2.3490855,
+        "runs": [
+          2.1388435,
+          2.3490855,
+          2.536881
+        ]
+      },
+      "synergy_noar": {
+        "median": 2.181885,
+        "runs": [
+          2.004429,
+          2.181885,
+          2.296592
+        ]
+      },
+      "change_pct": {
+        "synergy": 13.089773113776754,
+        "synergy_noar": 5.040399598206518
+      },
+      "delta": {
+        "synergy": 0.27189900000000033,
+        "synergy_noar": 0.10469850000000003
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_p95_ms": {
+      "baseline": {
+        "median": 3.1980624999999994,
+        "runs": [
+          3.1946510499999987,
+          3.2428783499999994,
+          3.1980624999999994
+        ]
+      },
+      "synergy": {
+        "median": 3.19025105,
+        "runs": [
+          3.19025105,
+          3.1805252999999998,
+          3.6184991999999987
+        ]
+      },
+      "synergy_noar": {
+        "median": 3.1654671999999997,
+        "runs": [
+          3.1654671999999997,
+          3.151274199999999,
+          3.986682349999998
+        ]
+      },
+      "change_pct": {
+        "synergy": -0.24425570169436267,
+        "synergy_noar": -1.0192202309992273
+      },
+      "delta": {
+        "synergy": -0.007811449999999276,
+        "synergy_noar": -0.03259529999999966
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_p99_ms": {
+      "baseline": {
+        "median": 5.6822433,
+        "runs": [
+          6.027531379999998,
+          5.6822433,
+          5.644365429999996
+        ]
+      },
+      "synergy": {
+        "median": 5.589181879999999,
+        "runs": [
+          6.00076977999999,
+          5.589181879999999,
+          5.403366089999997
+        ]
+      },
+      "synergy_noar": {
+        "median": 5.177880639999998,
+        "runs": [
+          4.770520329999994,
+          5.177880639999998,
+          5.896432329999997
+        ]
+      },
+      "change_pct": {
+        "synergy": -1.6377584536023055,
+        "synergy_noar": -8.876118697698173
+      },
+      "delta": {
+        "synergy": -0.09306142000000062,
+        "synergy_noar": -0.5043626600000017
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_tick_max_ms": {
+      "baseline": {
+        "median": 11.234498,
+        "runs": [
+          10.957723999999999,
+          11.234498,
+          11.574952
+        ]
+      },
+      "synergy": {
+        "median": 9.584799,
+        "runs": [
+          18.626302,
+          9.584799,
+          7.944007999999999
+        ]
+      },
+      "synergy_noar": {
+        "median": 11.625838,
+        "runs": [
+          11.625838,
+          9.201886,
+          14.707313
+        ]
+      },
+      "change_pct": {
+        "synergy": -14.684225320971173,
+        "synergy_noar": 3.48337771745564
+      },
+      "delta": {
+        "synergy": -1.649699,
+        "synergy_noar": 0.3913399999999996
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_mean_ms": {
+      "baseline": {
+        "median": 6.747051668656714,
+        "runs": [
+          6.747051668656714,
+          6.954898562780274,
+          6.253508288490301
+        ]
+      },
+      "synergy": {
+        "median": 5.194459089686094,
+        "runs": [
+          4.638927915545587,
+          5.194459089686094,
+          5.207990251492542
+        ]
+      },
+      "synergy_noar": {
+        "median": 6.40020920911127,
+        "runs": [
+          6.40020920911127,
+          5.980421582089559,
+          7.208334246268664
+        ]
+      },
+      "change_pct": {
+        "synergy": -23.011422695681368,
+        "synergy_noar": -5.140652192670961
+      },
+      "delta": {
+        "synergy": -1.5525925789706196,
+        "synergy_noar": -0.346842459545444
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_median_ms": {
+      "baseline": {
+        "median": 5.9110745,
+        "runs": [
+          5.9110745,
+          6.2847515,
+          5.5217635000000005
+        ]
+      },
+      "synergy": {
+        "median": 4.794343,
+        "runs": [
+          4.3139055,
+          4.794343,
+          4.8853355
+        ]
+      },
+      "synergy_noar": {
+        "median": 5.84545,
+        "runs": [
+          5.84545,
+          5.383627499999999,
+          6.833002
+        ]
+      },
+      "change_pct": {
+        "synergy": -18.89219125896654,
+        "synergy_noar": -1.1101957858930758
+      },
+      "delta": {
+        "synergy": -1.1167315000000002,
+        "synergy_noar": -0.0656245000000002
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_p95_ms": {
+      "baseline": {
+        "median": 10.401680349999998,
+        "runs": [
+          11.667580399999997,
+          10.401680349999998,
+          9.818351449999998
+        ]
+      },
+      "synergy": {
+        "median": 6.852104499999994,
+        "runs": [
+          6.2708770499999975,
+          6.852104499999994,
+          6.958744349999999
+        ]
+      },
+      "synergy_noar": {
+        "median": 9.878899499999992,
+        "runs": [
+          9.878899499999992,
+          8.48856695,
+          9.911285149999994
+        ]
+      },
+      "change_pct": {
+        "synergy": -34.12502336701785,
+        "synergy_noar": -5.02592689266793
+      },
+      "delta": {
+        "synergy": -3.5495758500000036,
+        "synergy_noar": -0.5227808500000055
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_p99_ms": {
+      "baseline": {
+        "median": 19.597570279999957,
+        "runs": [
+          21.782183479999883,
+          19.597570279999957,
+          18.146875349999938
+        ]
+      },
+      "synergy": {
+        "median": 10.374597049999995,
+        "runs": [
+          10.374597049999995,
+          11.404727759999956,
+          10.266966199999981
+        ]
+      },
+      "synergy_noar": {
+        "median": 17.59240230999995,
+        "runs": [
+          17.880317979999948,
+          16.9048867699999,
+          17.59240230999995
+        ]
+      },
+      "change_pct": {
+        "synergy": -47.06181990025746,
+        "synergy_noar": -10.231717204486076
+      },
+      "delta": {
+        "synergy": -9.222973229999962,
+        "synergy_noar": -2.005167970000006
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_tick_max_ms": {
+      "baseline": {
+        "median": 162.386532,
+        "runs": [
+          160.813456,
+          194.18943399999998,
+          162.386532
+        ]
+      },
+      "synergy": {
+        "median": 154.860943,
+        "runs": [
+          153.31859799999998,
+          154.860943,
+          160.908507
+        ]
+      },
+      "synergy_noar": {
+        "median": 166.834589,
+        "runs": [
+          166.834589,
+          148.90806,
+          174.921429
+        ]
+      },
+      "change_pct": {
+        "synergy": -4.634367707292373,
+        "synergy_noar": 2.739178517587903
+      },
+      "delta": {
+        "synergy": -7.5255889999999965,
+        "synergy_noar": 4.448057000000006
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "peak_working_set_mb": {
+      "baseline": {
+        "median": 1829.70703125,
+        "runs": [
+          1840.5859375,
+          1829.70703125,
+          1814.64453125
+        ]
+      },
+      "synergy": {
+        "median": 1852.53125,
+        "runs": [
+          1885.40234375,
+          1852.53125,
+          1849.78515625
+        ]
+      },
+      "synergy_noar": {
+        "median": 1877.7734375,
+        "runs": [
+          1868.45703125,
+          1894.6171875,
+          1877.7734375
+        ]
+      },
+      "change_pct": {
+        "synergy": 1.2474247712983424,
+        "synergy_noar": 2.6270001387688002
+      },
+      "delta": {
+        "synergy": 22.82421875,
+        "synergy_noar": 48.06640625
+      },
+      "unit": "MB",
+      "lower_is_better": true
+    },
+    "heap_after_worldgen_mb": {
+      "baseline": {
+        "median": 1249.525650024414,
+        "runs": [
+          1251.0347442626953,
+          1239.5088958740234,
+          1249.525650024414
+        ]
+      },
+      "synergy": {
+        "median": 1234.2847366333008,
+        "runs": [
+          1221.767349243164,
+          1234.2847366333008,
+          1246.801155090332
+        ]
+      },
+      "synergy_noar": {
+        "median": 1223.8358306884766,
+        "runs": [
+          1223.277359008789,
+          1223.8358306884766,
+          1238.7145385742188
+        ]
+      },
+      "change_pct": {
+        "synergy": -1.2197359366584826,
+        "synergy_noar": -2.055965744715649
+      },
+      "delta": {
+        "synergy": -15.240913391113281,
+        "synergy_noar": -25.6898193359375
+      },
+      "unit": "MB",
+      "lower_is_better": true
+    },
+    "heap_after_entities_mb": {
+      "baseline": {
+        "median": 1160.2957382202148,
+        "runs": [
+          1160.2957382202148,
+          1155.794090270996,
+          1164.2650833129883
+        ]
+      },
+      "synergy": {
+        "median": 1324.086929321289,
+        "runs": [
+          1324.086929321289,
+          1334.3267669677734,
+          1139.0598526000977
+        ]
+      },
+      "synergy_noar": {
+        "median": 1348.8375091552734,
+        "runs": [
+          1339.0387344360352,
+          1352.0407333374023,
+          1348.8375091552734
+        ]
+      },
+      "change_pct": {
+        "synergy": 14.11633135465227,
+        "synergy_noar": 16.24945819625814
+      },
+      "delta": {
+        "synergy": 163.79119110107422,
+        "synergy_noar": 188.5417709350586
+      },
+      "unit": "MB",
+      "lower_is_better": true
+    },
+    "peak_working_set_reload_mb": {
+      "baseline": {
+        "median": NaN,
+        "runs": []
+      },
+      "synergy": {
+        "median": NaN,
+        "runs": []
+      },
+      "synergy_noar": {
+        "median": NaN,
+        "runs": []
+      },
+      "change_pct": {
+        "synergy": NaN,
+        "synergy_noar": NaN
+      },
+      "delta": {
+        "synergy": NaN,
+        "synergy_noar": NaN
+      },
+      "unit": "MB",
+      "lower_is_better": true
+    },
+    "worldgen_cpu_ms": {
+      "baseline": {
+        "median": 46869.445,
+        "runs": [
+          46869.445,
+          46392.653,
+          47206.602
+        ]
+      },
+      "synergy": {
+        "median": 46779.939,
+        "runs": [
+          46412.99,
+          46779.939,
+          47148.948
+        ]
+      },
+      "synergy_noar": {
+        "median": 47392.636,
+        "runs": [
+          47392.636,
+          47308.239,
+          49248.863
+        ]
+      },
+      "change_pct": {
+        "synergy": -0.19096876440504304,
+        "synergy_noar": 1.1162730858024859
+      },
+      "delta": {
+        "synergy": -89.50600000000122,
+        "synergy_noar": 523.1909999999989
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "worldgen_gc_pause_ms": {
+      "baseline": {
+        "median": 1161.511,
+        "runs": [
+          1161.511,
+          1162.649,
+          1124.57
+        ]
+      },
+      "synergy": {
+        "median": 1110.89,
+        "runs": [
+          1103.227,
+          1110.89,
+          1170.806
+        ]
+      },
+      "synergy_noar": {
+        "median": 1094.118,
+        "runs": [
+          1094.118,
+          1085.347,
+          1103.159
+        ]
+      },
+      "change_pct": {
+        "synergy": -4.358202376042919,
+        "synergy_noar": -5.8021835350676865
+      },
+      "delta": {
+        "synergy": -50.62099999999987,
+        "synergy_noar": -67.39300000000003
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "worldgen_gc_gen0": {
+      "baseline": {
+        "median": 361.0,
+        "runs": [
+          361,
+          361,
+          361
+        ]
+      },
+      "synergy": {
+        "median": 360.0,
+        "runs": [
+          360,
+          359,
+          362
+        ]
+      },
+      "synergy_noar": {
+        "median": 361.0,
+        "runs": [
+          361,
+          361,
+          364
+        ]
+      },
+      "change_pct": {
+        "synergy": -0.2770083102493075,
+        "synergy_noar": 0.0
+      },
+      "delta": {
+        "synergy": -1.0,
+        "synergy_noar": 0.0
+      },
+      "unit": "gen0",
+      "lower_is_better": true
+    },
+    "worldgen_gc_gen2": {
+      "baseline": {
+        "median": 1.0,
+        "runs": [
+          1,
+          1,
+          1
+        ]
+      },
+      "synergy": {
+        "median": 1.0,
+        "runs": [
+          1,
+          1,
+          1
+        ]
+      },
+      "synergy_noar": {
+        "median": 1.0,
+        "runs": [
+          1,
+          1,
+          1
+        ]
+      },
+      "change_pct": {
+        "synergy": 0.0,
+        "synergy_noar": 0.0
+      },
+      "delta": {
+        "synergy": 0.0,
+        "synergy_noar": 0.0
+      },
+      "unit": "gen2",
+      "lower_is_better": true
+    },
+    "idle_cpu_ms": {
+      "baseline": {
+        "median": 2047.045,
+        "runs": [
+          1839.546,
+          2079.069,
+          2047.045
+        ]
+      },
+      "synergy": {
+        "median": 2031.597,
+        "runs": [
+          2006.816,
+          2031.597,
+          2183.381
+        ]
+      },
+      "synergy_noar": {
+        "median": 1995.896,
+        "runs": [
+          1836.614,
+          1995.896,
+          2066.342
+        ]
+      },
+      "change_pct": {
+        "synergy": -0.7546487742086809,
+        "synergy_noar": -2.4986749192128217
+      },
+      "delta": {
+        "synergy": -15.448000000000093,
+        "synergy_noar": -51.149000000000115
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_gc_pause_ms": {
+      "baseline": {
+        "median": 62.192,
+        "runs": [
+          62.192,
+          50.138,
+          71.247
+        ]
+      },
+      "synergy": {
+        "median": 53.753,
+        "runs": [
+          56.144,
+          51.045,
+          53.753
+        ]
+      },
+      "synergy_noar": {
+        "median": 53.466,
+        "runs": [
+          52.521,
+          53.466,
+          58.262
+        ]
+      },
+      "change_pct": {
+        "synergy": -13.569269359403139,
+        "synergy_noar": -14.03074350398765
+      },
+      "delta": {
+        "synergy": -8.439,
+        "synergy_noar": -8.725999999999999
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "idle_gc_gen0": {
+      "baseline": {
+        "median": 16.0,
+        "runs": [
+          16,
+          15,
+          20
+        ]
+      },
+      "synergy": {
+        "median": 16.0,
+        "runs": [
+          16,
+          14,
+          16
+        ]
+      },
+      "synergy_noar": {
+        "median": 16.0,
+        "runs": [
+          16,
+          16,
+          16
+        ]
+      },
+      "change_pct": {
+        "synergy": 0.0,
+        "synergy_noar": 0.0
+      },
+      "delta": {
+        "synergy": 0.0,
+        "synergy_noar": 0.0
+      },
+      "unit": "gen0",
+      "lower_is_better": true
+    },
+    "idle_gc_gen2": {
+      "baseline": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "synergy": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "synergy_noar": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "change_pct": {
+        "synergy": NaN,
+        "synergy_noar": NaN
+      },
+      "delta": {
+        "synergy": 0.0,
+        "synergy_noar": 0.0
+      },
+      "unit": "gen2",
+      "lower_is_better": true
+    },
+    "entities_cpu_ms": {
+      "baseline": {
+        "median": 12385.544,
+        "runs": [
+          12338.42,
+          12561.516,
+          12385.544
+        ]
+      },
+      "synergy": {
+        "median": 8626.253,
+        "runs": [
+          7893.31,
+          8626.253,
+          9079.536
+        ]
+      },
+      "synergy_noar": {
+        "median": 11085.772,
+        "runs": [
+          11085.772,
+          10441.538,
+          12532.515
+        ]
+      },
+      "change_pct": {
+        "synergy": -30.352247749473086,
+        "synergy_noar": -10.494266541703771
+      },
+      "delta": {
+        "synergy": -3759.2909999999993,
+        "synergy_noar": -1299.771999999999
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_gc_pause_ms": {
+      "baseline": {
+        "median": 355.93,
+        "runs": [
+          350.502,
+          355.93,
+          382.701
+        ]
+      },
+      "synergy": {
+        "median": 206.69,
+        "runs": [
+          206.69,
+          214.73,
+          200.991
+        ]
+      },
+      "synergy_noar": {
+        "median": 285.866,
+        "runs": [
+          288.926,
+          283.765,
+          285.866
+        ]
+      },
+      "change_pct": {
+        "synergy": -41.92959289747984,
+        "synergy_noar": -19.684769477144386
+      },
+      "delta": {
+        "synergy": -149.24,
+        "synergy_noar": -70.06400000000002
+      },
+      "unit": "ms",
+      "lower_is_better": true
+    },
+    "entities_gc_gen0": {
+      "baseline": {
+        "median": 87.0,
+        "runs": [
+          87,
+          83,
+          105
+        ]
+      },
+      "synergy": {
+        "median": 52.0,
+        "runs": [
+          52,
+          51,
+          54
+        ]
+      },
+      "synergy_noar": {
+        "median": 70.0,
+        "runs": [
+          72,
+          69,
+          70
+        ]
+      },
+      "change_pct": {
+        "synergy": -40.229885057471265,
+        "synergy_noar": -19.54022988505747
+      },
+      "delta": {
+        "synergy": -35.0,
+        "synergy_noar": -17.0
+      },
+      "unit": "gen0",
+      "lower_is_better": true
+    },
+    "entities_gc_gen2": {
+      "baseline": {
+        "median": 1.0,
+        "runs": [
+          1,
+          1,
+          1
+        ]
+      },
+      "synergy": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          1
+        ]
+      },
+      "synergy_noar": {
+        "median": 0.0,
+        "runs": [
+          0,
+          0,
+          0
+        ]
+      },
+      "change_pct": {
+        "synergy": -100.0,
+        "synergy_noar": -100.0
+      },
+      "delta": {
+        "synergy": -1.0,
+        "synergy_noar": -1.0
+      },
+      "unit": "gen2",
+      "lower_is_better": true
+    },
+    "idle_cpu_pct_of_one_core": {
+      "baseline": {
+        "median": 10.164813640854208,
+        "runs": [
+          9.131473534725169,
+          10.345090464365846,
+          10.164813640854208
+        ]
+      },
+      "synergy": {
+        "median": 10.1006989867039,
+        "runs": [
+          9.974577059534436,
+          10.1006989867039,
+          10.845431491611143
+        ]
+      },
+      "synergy_noar": {
+        "median": 9.923803196830407,
+        "runs": [
+          9.125413039672628,
+          9.923803196830407,
+          10.262872959852182
+        ]
+      },
+      "change_pct": {
+        "synergy": -0.6307509061712551,
+        "synergy_noar": -2.3710266861670335
+      },
+      "delta": {
+        "synergy": -0.06411465415030726,
+        "synergy_noar": -0.24101044402380012
+      },
+      "unit": "%",
+      "lower_is_better": true
+    },
+    "entities_cpu_pct_of_one_core": {
+      "baseline": {
+        "median": 27.550631359663512,
+        "runs": [
+          27.445161293824167,
+          27.972185562087574,
+          27.550631359663512
+        ]
+      },
+      "synergy": {
+        "median": 19.1931441945907,
+        "runs": [
+          17.556295225911057,
+          19.1931441945907,
+          20.215551045827393
+        ]
+      },
+      "synergy_noar": {
+        "median": 24.677527798139508,
+        "runs": [
+          24.677527798139508,
+          23.182324695699933,
+          27.895987819863926
+        ]
+      },
+      "change_pct": {
+        "synergy": -30.33501140488885,
+        "synergy_noar": -10.428449076235962
+      },
+      "delta": {
+        "synergy": -8.357487165072811,
+        "synergy_noar": -2.8731035615240046
+      },
+      "unit": "%",
+      "lower_is_better": true
+    },
+    "idle_tps": {
+      "baseline": {
+        "median": 29.793620484711006,
+        "runs": [
+          29.783892986829905,
+          29.854970078527973,
+          29.793620484711006
+        ]
+      },
+      "synergy": {
+        "median": 29.8220974704241,
+        "runs": [
+          29.8220974704241,
+          29.830814831988526,
+          29.803588539822805
+        ]
+      },
+      "synergy_noar": {
+        "median": 29.81164155235437,
+        "runs": [
+          29.81164155235437,
+          29.832626139329125,
+          29.80011912796289
+        ]
+      },
+      "change_pct": {
+        "synergy": 0.09558081646273234,
+        "synergy_noar": 0.06048633012765808
+      },
+      "delta": {
+        "synergy": 0.02847698571309465,
+        "synergy_noar": 0.018021067643363864
+      },
+      "unit": "ticks/s",
+      "lower_is_better": false
+    },
+    "entities_tps": {
+      "baseline": {
+        "median": 29.794798877837017,
+        "runs": [
+          29.80650369636013,
+          29.794798877837017,
+          29.762717535240906
+        ]
+      },
+      "synergy": {
+        "median": 29.770083177901643,
+        "runs": [
+          29.759787734510603,
+          29.770083177901643,
+          29.835047078847097
+        ]
+      },
+      "synergy_noar": {
+        "median": 29.806863898796404,
+        "runs": [
+          29.806863898796404,
+          29.750708269450257,
+          29.826913176339836
+        ]
+      },
+      "change_pct": {
+        "synergy": -0.08295306854297654,
+        "synergy_noar": 0.04049371505696419
+      },
+      "delta": {
+        "synergy": -0.024715699935374147,
+        "synergy_noar": 0.012065020959386885
+      },
+      "unit": "ticks/s",
+      "lower_is_better": false
+    }
+  },
+  "startup_phases_s": {
+    "baseline": {
+      "process start \u2192 BenchModStarted": 5.7461552000000005,
+      "BenchModStarted \u2192 LoadGamePre": 0.040965900000000145,
+      "LoadGamePre \u2192 GameReady": 1.8790320999999994,
+      "GameReady \u2192 WorldReady": 0.006861700000000383,
+      "WorldReady \u2192 RunGame": 7.9138194
+    },
+    "synergy": {
+      "process start \u2192 BenchModStarted": 6.802833,
+      "BenchModStarted \u2192 LoadGamePre": 0.21234040000000004,
+      "LoadGamePre \u2192 GameReady": 1.6637909000000008,
+      "GameReady \u2192 WorldReady": 0.02573449999999866,
+      "WorldReady \u2192 RunGame": 8.253147600000002
+    },
+    "synergy_noar": {
+      "process start \u2192 BenchModStarted": 6.1356216,
+      "BenchModStarted \u2192 LoadGamePre": 0.20852400000000035,
+      "LoadGamePre \u2192 GameReady": 1.7413195999999997,
+      "GameReady \u2192 WorldReady": 0.02406880000000001,
+      "WorldReady \u2192 RunGame": 7.840466500000001
+    }
+  },
+  "mod_attribution_ms_per_tick": {
+    "baseline/idle": {
+      "game": 0.7020052666666808,
+      "suhbench": 0.04355273833333332
+    },
+    "baseline/entities": {
+      "game": 2.6919996529851726,
+      "suhbench": 0.1560934289985052
+    },
+    "synergy/idle": {
+      "game": 0.7242868716666607,
+      "suhbench": 0.03904835666666666,
+      "synergy": 0.0014136149999999985
+    },
+    "synergy/entities": {
+      "game": 2.249737764574128,
+      "suhbench": 0.15079581913303422,
+      "synergy": 0.0014248019431988362
+    },
+    "synergy_noar/idle": {
+      "game": 0.711040700000003,
+      "suhbench": 0.03955498666666667,
+      "synergy": 0.001329598333333333
+    },
+    "synergy_noar/entities": {
+      "game": 2.4017165668410474,
+      "suhbench": 0.15882939955190448,
+      "synergy": 0.0015820612397311558
+    }
+  },
+  "systems_per_tick_ms": {
+    "baseline/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": 1.2309420683333336,
+      "EventManager.TriggerGameTick": 0.9146963033333317
+    },
+    "synergy/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": 1.3511741899999998,
+      "EventManager.TriggerGameTick": 0.9737024500000001
+    },
+    "synergy_noar/idle": {
+      "ServerSystemEntitySimulation.OnServerTick": 1.3041239600000007,
+      "EventManager.TriggerGameTick": 0.9334153416666656
+    },
+    "baseline/entities": {
+      "ServerSystemEntitySimulation.OnServerTick": 3.6697304201492553,
+      "EventManager.TriggerGameTick": 3.035716961194037
+    },
+    "synergy/entities": {
+      "ServerSystemEntitySimulation.OnServerTick": 2.510669891791048,
+      "EventManager.TriggerGameTick": 2.6019290485799673
+    },
+    "synergy_noar/entities": {
+      "ServerSystemEntitySimulation.OnServerTick": 3.6062331919342827,
+      "EventManager.TriggerGameTick": 2.759375960418229
+    }
+  },
+  "mods_loaded": {
+    "synergy": {
+      "modid": "synergy",
+      "name": "Synergy",
+      "version": "1.1.25",
+      "side": "Universal",
+      "file": "Synergy-1.1.25.zip",
+      "builtin": false,
+      "authors": [
+        "Zaldaryon"
+      ]
+    }
+  },
+  "mods_table_md": "| Mod | Version tested | Author | Mod DB |\n|---|---|---|---|\n| Synergy | 1.1.25 | Zaldaryon | [synergy](https://mods.vintagestory.at/synergy) |\n| Tungsten | 1.3.7 | Zaldaryon | [tungsten](https://mods.vintagestory.at/tungsten) |"
+}
