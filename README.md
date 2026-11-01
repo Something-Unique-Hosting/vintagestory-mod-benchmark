@@ -1,6 +1,6 @@
 # Vintage Story mod benchmark
 
-The numbers behind our blog post *Synergy and Tungsten on a Vintage Story Server: We Benchmarked Both, Alone and Together (1.22.7)* are in [`results/`](results/) and the charts in [`charts/`](charts/).
+The blog post *Synergy and Tungsten on a Vintage Story Server: We Benchmarked Both, Alone and Together (1.22.7)* is in [`blog/synergy-tungsten/post.md`](blog/synergy-tungsten/post.md); the numbers behind it are in [`results/`](results/) and the charts in [`charts/`](charts/).
 
 A repeatable, player-free benchmark that measures what individual mods, and a collection of them, cost a
 Vintage Story dedicated server. One official server build, N mod sets, same world seed, same phases, run
@@ -37,7 +37,8 @@ harness/      serverconfig.bench.json (seed 20261030, three ModPaths), variants.
 tools/        fetch_mods.py, analyze_mods.py, make_post.py, build_html.py
 container/    run_in_container.sh
 mods/         fetch_mods.py output: pool/*.zip, sets/<variant>.list, variants.txt, variants.lock.json
-results/      raw per-run JSON, server and bot logs from our runs (ny8-synergy-tungsten-noplayer, -player, -ladder)
+results/      raw per-run JSON, server and bot logs from our runs (ny8-synergy-tungsten-noplayer, -player, -ladder, -player-activationrange-off)
+blog/         the published post (Markdown and the charts it uses)
 charts/       the PNG charts and summary tables generated from results/
 ```
 
