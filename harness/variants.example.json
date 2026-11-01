@@ -2,8 +2,8 @@
   "_comment": "Mod benchmark manifest. 'mods' keys are mods.vintagestory.at URL aliases (the slug in https://mods.vintagestory.at/<slug>). Optional per mod: version (exact modversion to pin), deps (library mods loaded with it but not benchmarked alone), label, file (local zip instead of download). 'variants' is optional: without it you get baseline + one variant per non-library mod + 'all'.",
   "game": "1.22.7",
   "mods": {
-    "primitivesurvival": { "label": "Primitive Survival" },
-    "betterruins": { "label": "Better Ruins" }
+    "synergy": { "label": "Synergy" },
+    "tungsten": { "label": "Tungsten" }
   },
   "variants": null
 }

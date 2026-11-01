@@ -513,7 +513,7 @@ namespace SuhBench
             sapi.Logger.Notification("[SuhBench] ladder step {0}: spawning {1} more entities toward {2}", ladderIdx + 1, spawnQueue, ladder[ladderIdx]);
         }
 
-        // BENCH_PLACE="primitivesurvival:fishbasket-north=40,game:firepit-lit=20": set that many of each block at random surface
+        // BENCH_PLACE="game:firepit-lit=20,game:bloomery-north=10": set that many of each block at random surface
         // positions around spawn before the idle phase, so mods whose cost lives in block entities have something to tick.
         // Unknown codes (the mod is not loaded in this variant) are skipped and reported, so the same setting fits every variant.
         void PlaceBlocks()

@@ -16,7 +16,7 @@ Harmony hook) and adds what a mod comparison needs:
 - **Per-mod attribution.** Every game-tick listener (including block entities) and every entity behaviour a mod
   declares is timed and credited to that mod. What a mod does through Harmony patches of game code or through
   JSON-only content is *not* separable; it shows up in the totals only.
-- **Placed blocks.** `PLACE="primitivesurvival:fishbasket-north=40,..."` sets that many of a block around spawn
+- **Placed blocks.** `PLACE="game:firepit-lit=20,..."` sets that many of a block around spawn
   before the idle phase, so mods whose cost lives in block entities have something to tick. Codes the current
   variant does not know are skipped, so one setting fits every variant.
 - **A player, when the mods need one.** `BOT=1` starts a headless bot client (`bot/`, speaks the game's join
